@@ -3,35 +3,16 @@
     <section class="intro">
       <h1>Get the latest tech news!</h1>
     </section>
-    <section class="featured-posts">
-      <PostPreview 
-        id="1"
-        thumbnail="https://etimg.etb2bimg.com/photo/63375663.cms"
-        title="Hello there"
-        preview-text="This is my first post !!!"
-      />
-      <PostPreview 
-        id="2"
-        thumbnail="https://etimg.etb2bimg.com/photo/63375663.cms"
-        title="Hello there"
-        preview-text="This is my first post !!!"
-      />
-      <PostPreview 
-        id="3"
-        thumbnail="https://etimg.etb2bimg.com/photo/63375663.cms"
-        title="Hello there"
-        preview-text="This is my first post !!!"
-      />
-    </section>
+    <PostList />
   </div>
 </template>
 
 <script>
-import PostPreview from '@/components/PostPreview'
+import PostList from '@/components/Posts/PostList'
 
 export default {
   components: {
-    PostPreview
+    PostList
   }
 }
 </script>

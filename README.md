@@ -1,6 +1,6 @@
-# blog-app
+# nuxt-course
 
-> Blog app
+> Nuxt.js course for Udemy
 
 ## Build Setup
 
